@@ -1,0 +1,9 @@
+.itemUsuario{
+    box-shadow: 1px 1px 1px #d0d0d0;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.itemUsuario:hover{
+    background: #80808033!important;
+}

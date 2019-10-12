@@ -1,0 +1,38 @@
+[
+    {
+        "id": "0",
+        "nombres": "Aaron",
+        "apellidos":"Espinoza Ilizarbe",
+        "online": true
+    },
+    {
+        "id": "1",
+        "nombres": "Enrique",
+        "apellidos": "Tulio Salazar",
+        "online": false
+    },
+    {
+        "id": "2",
+        "nombres": "Juan",
+        "apellidos": "Salas Casas",
+        "online": true
+    },
+    {
+        "id": "3",
+        "nombres": "Marco",
+        "apellidos": "Muñoz Porras",
+        "online": true
+    },
+    {
+        "id": "4",
+        "nombres": "Luis",
+        "apellidos": "Estrada Huaman",
+        "online": false
+    },
+    {
+        "id": "5",
+        "nombres": "José",
+        "apellidos": "Arroyo Rivas",
+        "online": true
+    }
+]
