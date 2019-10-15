@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import User from './components/user.js';
+import Message from './components/message.js';
 import users from './data/usuarios.json';
 
 function App() {
@@ -32,7 +33,13 @@ function App() {
                     <span className="font-weight-bold text-uppercase text-muted" style={{letterSpacing: "0.5px"}}>Espinoza Ilizarbe Aaron</span>
                   </div>
                 </div>
-                <div className="border p-1" style={{height: "85vh"}}>Body</div>
+                <div className="border p-1" style={{height: "85vh"}}>
+                  <div className="d-flex flex-column">
+                    <Message mensaje="Hola!" user="me"/>
+                    <Message mensaje="Como te va?!" user="me"/>
+                    <Message mensaje="Bien y tu?!"/>
+                  </div>
+                </div>
                 <div className="border d-flex flex-row align-items-center" style={{height: "9vh"}}>
                   <textarea className="w-100 border-0 px-3 py-2 h-100 form-control txtMessage" placeholder="Escribe un mensaje" style={{resize: "unset"}}></textarea>
                   <div className="mx-3 mr-4">
