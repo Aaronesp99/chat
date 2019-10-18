@@ -1,38 +1,38 @@
 [
     {
-        "id": "0",
         "nombres": "Aaron",
         "apellidos":"Espinoza Ilizarbe",
-        "online": true
+        "id": "aaron",
+        "online": false
     },
     {
-        "id": "1",
         "nombres": "Enrique",
         "apellidos": "Tulio Salazar",
+        "id": "enrique",
         "online": false
     },
     {
-        "id": "2",
         "nombres": "Juan",
         "apellidos": "Salas Casas",
-        "online": true
-    },
-    {
-        "id": "3",
-        "nombres": "Marco",
-        "apellidos": "Muñoz Porras",
-        "online": true
-    },
-    {
-        "id": "4",
-        "nombres": "Luis",
-        "apellidos": "Estrada Huaman",
+        "id": "juan",
         "online": false
     },
     {
-        "id": "5",
+        "nombres": "Marco",
+        "apellidos": "Muñoz Porras",
+        "id": "marco",
+        "online": false
+    },
+    {
+        "nombres": "Luis",
+        "apellidos": "Estrada Huaman",
+        "id": "luis",
+        "online": false
+    },
+    {
         "nombres": "José",
         "apellidos": "Arroyo Rivas",
-        "online": true
+        "id": "jose",
+        "online": false
     }
 ]
